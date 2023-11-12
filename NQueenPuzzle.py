@@ -81,12 +81,10 @@ if __name__ == "__main__":
     end = timeit.default_timer()
 
     #Print for testing tool
-    print(board.board)
+    #print(board.board)
 
-'''
     if size > 100:
         print("{}".format(round(end-start,2)))
     else:
         #Print the whole board
         board.print_board()
-'''
